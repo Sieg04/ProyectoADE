@@ -34,6 +34,7 @@ android {
 }
 
 dependencies {
+    implementation (libs.firebase.firestore) // Para Firestore
     implementation(platform(libs.firebase.bom))
     implementation(libs.firebase.analytics)
     implementation(libs.firebase.crashlytics)
